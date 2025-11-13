@@ -22,3 +22,36 @@ This scraped text will later be used for text mining and network analysis.
 - `README.md` – project summary  
 
 ---
+# Exercise 1.5 – Text Mining Analysis
+# Overview
+This exercise analyzes text scraped from the Wikipedia page “Key Events of the 20th Century.”
+The goal was to clean the text, tokenize it, analyze frequencies, run POS tagging, and check how often countries were mentioned.
+# Steps Completed
+1.Load the Scraped Text
+Loaded the text file from Exercise 1.4
+Previewed the first part to confirm successful loading
+2. Tokenization & Word Frequency
+Tokenized the full text
+Removed punctuation and stopwords
+Created bar plots of the Top 10 Most Common Words (before and after cleaning)
+3.  POS Tagging with TextBlob
+Generated POS tags for each word
+Identified the Top 10 POS tags
+# Plotted:
+Top 15 nouns
+Top 15 verbs
+Top 15 adjectives
+4. Country Mention Frequency
+Used a list of 190+ countries
+Counted how often each country appeared
+Created a dataframe of country frequencies
+Plotted the distribution of mentions
+# Key Findings
+After removing stopwords, meaningful words like war, world, and history appear most frequently
+Nouns dominate the POS distribution — expected for a historical article
+Some countries appear much more (e.g., Vietnam, Australia, Ukraine) due to major 20th-century events
+Most countries were mentioned only once
+# Files Included
+text_mining.ipynb — analysis notebook
+20th_century_events.txt — scraped text
+README.md — project documentation
