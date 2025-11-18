@@ -55,3 +55,13 @@ Most countries were mentioned only once
 text_mining.ipynb — analysis notebook
 20th_century_events.txt — scraped text
 README.md — project documentation
+
+
+# Exercise 1.6 – NLP & NER Analysis
+
+For this exercise, I used Natural Language Processing to analyze the twentieth-century events text from Exercise 1.4. I created an NER object using spaCy, split the text into sentences, and filtered the entities to keep only country-related items (GPE/LOC). I then identified sentences where two or more countries appeared together and used this information to build a relationships dataframe. These outputs will be used to create the network visualization in Exercise 1.6.
+
+### Files Created
+- `exercise_1_6_nlp.ipynb`
+- `20th_century_events_clean.txt`
+- `country_relationships.csv`
