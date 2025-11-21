@@ -65,3 +65,32 @@ For this exercise, I used Natural Language Processing to analyze the twentieth-c
 - `exercise_1_6_nlp.ipynb`
 - `20th_century_events_clean.txt`
 - `country_relationships.csv`
+
+
+
+# Project Overview
+Using a text-mined dataset of historical events, I:
+Extracted country mentions using NER
+Created a relationship dataframe for country co-occurrences
+Built a NetworkX graph
+Created interactive PyVis network visualizations:
+Static network graph
+Community-colored network graph
+Applied Leiden community detection
+Calculated and visualized:
+Degree centrality
+Closeness centrality
+Betweenness centrality
+# Files Included
+exercise_1.6_NLP_network.ipynb – Full project notebook
+network_graph.html – Interactive PyVis network
+country_communities.html – Community-colored PyVis network
+Supporting CSV files
+# Key Insights
+The network reveals clusters that match real historical alliances and regional ties.
+Highly central nodes (e.g., major world powers) appear with high degree, closeness, and betweenness centrality.
+Community detection groups countries into logical geopolitical blocs.
+# Tools & Libraries
+Python, Jupyter Notebook
+spaCy, pandas, NetworkX, PyVis, cdlib
+matplotlib, seaborn
